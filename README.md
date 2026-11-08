@@ -8,6 +8,7 @@
 - Andi Ode Larios (Coder)
 - Riast Dwi Sanditya (Coder)
 - Muhammad Kezban Ramadzan (Coder)
+**Link Pembagian Tugas by Trello:** https://trello.com/invite/b/6aeb49119d4941b009d21fdc/ATTId17175bd659be29859ac59a89455fa158A0A9B7A/kerjain-yukk 
 
 ---
 
@@ -59,4 +60,5 @@ Di bawah ini merupakan tangkapan layar dari uji coba ke-6 routes API di POSTMAN.
 
    
 ## 6. Metode DELETE
-   <img width="1920" height="1140" alt="DELETE by ID" src="https://github.com/user-attachments/assets/faa7d84b-710f-4749-a68a-0a3321cf96da" />
+   <img width="1920" height="1140" alt="DELETE" src="https://github.com/user-attachments/assets/576bb24f-32fd-49cc-9ea9-b136047e875d" />
+
