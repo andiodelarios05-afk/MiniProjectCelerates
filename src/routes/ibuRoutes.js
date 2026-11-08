@@ -3,6 +3,8 @@ const router = express.Router();
 const pool = require("../db");
 
 
+const KOLOM_WAJIB = ["nik", "nama", "tanggal_lahir"];
+
 function kolomKosong(body) {
     return KOLOM_WAJIB.filter((k) => body[k] === undefined || body[k] === "");
 }
