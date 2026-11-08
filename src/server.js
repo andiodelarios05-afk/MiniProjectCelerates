@@ -17,8 +17,33 @@ app.get("/", (req, res) => {
         endpoints: [
             "GET /ibu",
             "GET /ibu/:id",
-            "GET /ibu/search?nama=Siti"
+            "GET /ibu/search?nama=Siti",
+            "POST /ibu",
+            "PUT /ibu/:id",
+            "DELETE /ibu/:id"
         ]
+    });
+});
+
+
+// kalau route tidak ditemukan
+app.use((req, res) => {
+    res.status(404).json({
+        message: "Endpoint tidak ditemukan"
+    });
+});
+
+
+// error handling
+app.use((err, req, res, next) => {
+    if (err.type === "entity.parse.failed") {
+        res.status(400).json({
+            message: "JSON tidak valid"
+        });
+    } 
+    console.error(err);
+    res.status(500).json({
+        message: "Terjadi kesalahan pada server"
     });
 });
 
