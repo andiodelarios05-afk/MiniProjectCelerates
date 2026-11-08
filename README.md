@@ -8,6 +8,7 @@
 - Andi Ode Larios (Coder)
 - Riast Dwi Sanditya (Coder)
 - Muhammad Kezban Ramadzan (Coder)
+
 **Link Pembagian Tugas by Trello:** https://trello.com/invite/b/6aeb49119d4941b009d21fdc/ATTId17175bd659be29859ac59a89455fa158A0A9B7A/kerjain-yukk 
 
 ---
